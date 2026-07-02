@@ -15,6 +15,11 @@ android {
         versionName = "1.0"
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
+
+        // 优化：仅针对 arm64-v8a 架构进行构建
+        ndk {
+            abiFilters.add("arm64-v8a")
+        }
     }
 
     buildTypes {
