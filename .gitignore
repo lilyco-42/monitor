@@ -1,0 +1,51 @@
+# Built objects
+*.pyc
+*.class
+*.o
+*.pyo
+
+# Build artifacts
+bin/
+gen/
+out/
+build/
+.gradle/
+
+# Android Studio / IntelliJ files
+.idea/
+*.iml
+*.iws
+*.ipr
+/captures/
+.externalNativeBuild/
+.cxx/
+cmake_install.cmake
+CMakeCache.txt
+CMakeFiles/
+
+# Local configuration files
+local.properties
+
+# Signing files
+*.jks
+*.keystore
+*.p12
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Log files
+*.log
+
+# Mobile specific
+*.apk
+*.ap_
+*.dex
+
+# Kotlin
+.kotlin/
+
+# Secrets
+google-services.json
+secrets.xml
